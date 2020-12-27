@@ -1,4 +1,6 @@
-# Hi! Thanks for checking out this repository. :)
+# Chat App
+
+Hi! Thanks for checking out this repository. :)
 
 This is a chat application for Socket.IO practice.
 
