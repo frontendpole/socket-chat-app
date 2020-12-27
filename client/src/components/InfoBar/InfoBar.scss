@@ -1,0 +1,28 @@
+@import '../../styles/mixins.scss';
+
+.InfoBar {
+  @include flex-row-center;
+  justify-content: space-between;
+  background: forestgreen;
+  border-radius: 4px 4px 0 0;
+  height: 70px;
+  width: 100%;
+
+  &--leftInnerContainer {
+    @include flex-row-center;
+    margin-left: 5%;
+    color: white;
+  }
+
+  &--rightInnerContainer {
+    @include flex-row-center;
+    justify-content: flex-end;
+    flex: 0.5;
+    margin-right: 5%;
+
+    .closeIcon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

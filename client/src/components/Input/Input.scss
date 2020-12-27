@@ -1,0 +1,24 @@
+  @import '../../styles/mixins.scss';
+
+  .Form {
+    @include flex-row-center;
+    border-top: 2px solid #D3D3D3;
+
+    &--input {
+      border: none;
+      border-radius: 0;
+      padding: 5%;
+      width: 80%;
+      font-size: 1.2em;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &--sendButton {
+      @include button-default;
+      height: 100%;
+      width: 20%;
+    }
+  }
